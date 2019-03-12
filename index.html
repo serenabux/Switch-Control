@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+	<head>
+		<title>
+			Calculator Demo
+		</title>
+		<link rel="stylesheet" href="calculator.css" type="text/css">
+	</head>
+	<body>
+		<div id="calculator">
+			<h1>calc U l8r</h1>
+			<div class="calculator_row">
+				<input id="number_input">
+			</div>
+			<div class="calculator_row">
+				<button id="button7" class="calcButton row1 col1">7</button>
+				<button id="button8" class="calcButton row1 col2">8</button>
+				<button id="button9" class="calcButton row1 col3">9</button>
+				<button id="buttonDivide" class="calcButton row1 col4 function">/</button>
+			</div>
+			<div class="calculator_row">
+				<button id="button4" class="calcButton row2 col1">4</button>
+				<button id="button5" class="calcButton row2 col2">5</button>
+				<button id="button6" class="calcButton row2 col3">6</button>
+				<button id="buttonMultiply" class="calcButton row2 col4 function">*</button>
+			</div>
+			<div class="calculator_row">
+				<button id="button1" class="calcButton row3 col1">1</button>
+				<button id="button2" class="calcButton row3 col2">2</button>
+				<button id="button3" class="calcButton row3 col3">3</button>
+				<button id="buttonAdd" class="calcButton row3 col4 function">+</button>
+			</div>
+			<div class="calculator_row">
+				<button id="button0" class="calcButton row4 col1">0</button>
+				<button id="buttonClear" class="calcButton row4 col2 meta">C</button>
+				<button id="buttonEquals" class="calcButton row4 col3 meta">=</button>
+				<button id="buttonSubtract" class="calcButton row4 col4 function">-</button>
+			</div>
+		</div>
+		<div id="comments">
+			<h2>About this Application</h2>
+			<h3>Use Instructions</h3>
+			<ul> 
+				<lh>There are 4 ways to interact with this application on a computer</lh> 
+				<li>Use your mouse or touch to click the desired button</li>
+				<li>3 key input
+					<ul>
+						<li>back one key: 'a'</li>
+						<li>forward one key: 'd'</li>
+						<li>Select: 's'</li>
+					</ul>
+				</li>
+				<li>5 key input with additional keys corresponding to up and down
+					<ul>
+						<li>back one key: 'f'</li>
+						<li>forward one key: 'h'</li>
+						<li>up one key: 't'</li>
+						<li>down one key: 'b'</li>
+						<li>select: 'g'</li>
+					</ul>
+				</li>
+				<li>5 key input with additional keys corresponding to up and down
+					<ul>
+						<li>back one key: 'j'</li>
+						<li>forward one key: 'k'</li>
+						<li>up diagonal right one key: 'o'</li>
+						<li>up diagonal left one key: 'i'</li>
+						<li>down diagonal right one key: ','</li>
+						<li>down diagonal left one key: 'm'</li>
+						<li>select: 'k'</li>
+					</ul>
+				</li>
+			</ul>
+			<h3>The test</h3>
+				<p>I wanted to test the impact adding two keys has on the speed of input. So I tested five equations 5 times using the three custom coded user input keys. The equations used for testing are listed below. When the equation was completely entered I pressed the '=' button and then cleared it with 'C' button before entering the next equation.</p>
+				<ul>
+					<lh> Equations used in experiment </lh>
+					<li>(9+5)/3</li>
+					<li>(7*4)+1</li>
+					<li>(8-6)/2</li>
+					<li>5*5*5</li>
+					<li>(7/3+6-1)*2</li>
+				</ul>
+			<h3>Test Results</h3>
+			<h4>Total Time to Enter All Equations</h4>
+			<table>
+				<th>3 Key Input</th>
+				<th>5 Key Input</th>
+				<th>7 Key Input</th>
+				<tr>
+					<td>2:26.88</td>
+					<td>1:55.52</td>
+					<td>2:51.66</td>
+				</tr> 
+				<tr>
+					<td>2:09.93</td>
+					<td>1:42.30</td>
+					<td>2:30.65</td>
+				</tr>
+				<tr>
+					<td>1:50.21</td>
+					<td>1:40.58</td>
+					<td>2:28.35</td>
+				</tr>
+				<tr>
+					<td>1:45.97</td>
+					<td>1:35.48</td>
+					<td>2:19.94</td>
+				</tr>
+				<tr>
+					<td>1:25.12</td>
+					<td>1:22.09</td>
+					<td>2:16.75</td>
+				</tr>
+			</table>
+			<h4>Total Errors</h4>
+			<table>
+				<th>3 Key Input</th>
+				<th>5 Key Input</th>
+				<th>7 Key Input</th>
+				<tr>
+					<td>20</td>
+					<td>36</td>
+					<td>67</td>
+				</tr>
+			</table>
+			<h4>Conclusion</h4>
+			<p>The fastest method of input was 5 keys and the slowest was 7 keys. The time it took to use 3 keys was close to the time it took to use 5 keys. I believe that using 5 keys would have been even faster if the keys were directly lined up so that the key corresponding to up was directly above the enter key and same with the down button. The results also demonstrate that more keys is not always better. Having 7 keys is not an intuitive means of input. It is more intuitive to have an up and a down button then diagonal. This is an important consideration to consider when assessing means of input.  </p>
+			<h3>Additional Test</h3>
+			<p> I was also curios about how it would be using the key input for various types of input instead of hands. I test the 3 button input method using my nose once and my foot once. Both methods of input were substantially harder than using hands. The hardest thing about using my nose was that every time you then had to look up to make sure you were on the right key and that it selected properly. I was expecting to have more errors as I input the equations, but I managed to have very few errors and never accidentally hit the wrong key. Honestly, this experience was very dizzying and started to give me a headache before I even made it through all of the equations. Thus, if nose were to be used as the primary input method there would need to be a better input design that would not require constantly having to look up and down.</p> 
+			<p>
+				Using my foot as a means of input was faster then using my hand but again was accompanied by challenges. One of the biggest challenges that I encountered was the I would hit the wrong key quite easily. The other main challenge that I encountered was that it required me to hold my foot in a pointed position which became uncomfortable quite quickly. Thus, if I were to design a system where the foot tapped buttons as a means of input I would consider making them larger and position them in a more natural fashion.
+			</p>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+		<script src="calculator.js" type="text/javascript"></script>
+	</body>
+</html>
